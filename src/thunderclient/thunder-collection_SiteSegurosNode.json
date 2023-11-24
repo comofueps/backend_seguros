@@ -1,0 +1,575 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "SiteSegurosNode",
+    "dateExported": "2023-10-09T18:52:27.839Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "41a5cc95-afd5-47a1-9b70-54ddd6d49592",
+            "name": "Persona",
+            "containerId": "",
+            "created": "2023-10-09T18:24:58.654Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "a7299829-54e5-45a0-8c7a-3ab038ce6782",
+            "name": "Vehiculo",
+            "containerId": "",
+            "created": "2023-10-09T18:24:58.656Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "80e04456-c5e2-406d-8b00-c1df2157ca31",
+            "name": "Multa",
+            "containerId": "",
+            "created": "2023-10-09T18:24:58.657Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "47a69a7f-a134-49c3-a891-31ffc39e51ae",
+            "name": "Involucrar",
+            "containerId": "",
+            "created": "2023-10-09T18:24:58.658Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "be1c1c2f-0bb6-4fe2-865f-4b8d3e38f53e",
+            "name": "Posser",
+            "containerId": "",
+            "created": "2023-10-09T18:25:43.411Z",
+            "sortNum": 70000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "64546056-9072-4e84-ad63-ffc2478c361e",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "41a5cc95-afd5-47a1-9b70-54ddd6d49592",
+            "name": "Listar Personas",
+            "url": "localhost:4000/personas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-09T18:24:58.655Z",
+            "modified": "2023-10-09T18:24:58.655Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5cb1137e-1bd0-484c-b194-3876556345e5",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "41a5cc95-afd5-47a1-9b70-54ddd6d49592",
+            "name": "Buscar Persona",
+            "url": "localhost:4000/personas/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-09T18:24:58.656Z",
+            "modified": "2023-10-09T18:24:58.656Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "faaa1947-d27a-4059-bb8a-4aa9ea1f3ba6",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "41a5cc95-afd5-47a1-9b70-54ddd6d49592",
+            "name": "Actualizar Persona",
+            "url": "localhost:4000/personas/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-09T18:24:58.657Z",
+            "modified": "2023-10-09T18:26:03.719Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ciudad",
+                        "value": "Riohacha"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "5bd2c216-5f86-438c-b397-85843a39a766",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "41a5cc95-afd5-47a1-9b70-54ddd6d49592",
+            "name": "Eliminar Persona",
+            "url": "localhost:4000/personas/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-10-09T18:24:58.658Z",
+            "modified": "2023-10-09T18:24:58.658Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d8ed2dc6-25a1-4c3c-a0af-cf56d96bf04b",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "41a5cc95-afd5-47a1-9b70-54ddd6d49592",
+            "name": "Insertar Persona",
+            "url": "localhost:4000/personas",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-10-09T18:24:58.659Z",
+            "modified": "2023-10-09T18:26:25.712Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "DNI",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "nombre",
+                        "value": "Alex"
+                    },
+                    {
+                        "name": "apellido",
+                        "value": "Medina"
+                    },
+                    {
+                        "name": "direccion",
+                        "value": "calle 27#7-85"
+                    },
+                    {
+                        "name": "ciudad",
+                        "value": "Riohacha"
+                    },
+                    {
+                        "name": "tipoPersona",
+                        "value": "Activo"
+                    },
+                    {
+                        "name": "telefono",
+                        "value": "320437482"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "295996be-ec88-4315-971d-16c2e212139c",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "a7299829-54e5-45a0-8c7a-3ab038ce6782",
+            "name": "Listar Vehiculos",
+            "url": "localhost:4000/vehiculos",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-10-09T18:24:58.660Z",
+            "modified": "2023-10-09T18:24:58.660Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e367e076-1d9a-4f76-9dd4-a24270e86987",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "80e04456-c5e2-406d-8b00-c1df2157ca31",
+            "name": "Listar Multas",
+            "url": "localhost:4000/multas",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-10-09T18:24:58.665Z",
+            "modified": "2023-10-09T18:24:58.665Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6b104f37-5665-4346-b9c8-c81536877bc4",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "47a69a7f-a134-49c3-a891-31ffc39e51ae",
+            "name": "Listar Involucrados",
+            "url": "localhost:4000/involucrar",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-10-09T18:24:58.670Z",
+            "modified": "2023-10-09T18:24:58.670Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0ec0c35c-182e-48cc-9117-7524626ca59f",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "a7299829-54e5-45a0-8c7a-3ab038ce6782",
+            "name": "Buscar Vehiculo",
+            "url": "localhost:4000/vehiculos/1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-10-09T18:24:58.661Z",
+            "modified": "2023-10-09T18:24:58.661Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "98dcd5d1-8f4f-4b44-982d-920ee08b1e84",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "80e04456-c5e2-406d-8b00-c1df2157ca31",
+            "name": "Buscar Multa",
+            "url": "localhost:4000/multas/1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-10-09T18:24:58.666Z",
+            "modified": "2023-10-09T18:24:58.666Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dc4d3017-dd5b-47a1-9925-4a3348af5eef",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "47a69a7f-a134-49c3-a891-31ffc39e51ae",
+            "name": "Buscar involucrado",
+            "url": "localhost:4000/involucrar/1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-10-09T18:24:58.671Z",
+            "modified": "2023-10-09T18:24:58.671Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1922a9aa-9c0a-4ab1-8e4e-9c6d5add8ea2",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "a7299829-54e5-45a0-8c7a-3ab038ce6782",
+            "name": "Actualizar Vehiculo",
+            "url": "localhost:4000/vehiculos/1",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-10-09T18:24:58.662Z",
+            "modified": "2023-10-09T18:28:34.410Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "modelo",
+                        "value": "Fortuner"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2ac4973-e94b-4813-b3d3-7d44da45bb32",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "80e04456-c5e2-406d-8b00-c1df2157ca31",
+            "name": "Actualizar Multa",
+            "url": "localhost:4000/multas/1",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-10-09T18:24:58.667Z",
+            "modified": "2023-10-09T18:24:58.667Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ciudadPersona",
+                        "value": "Riohacha"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a6509042-a62a-4e9e-9902-be3adcf77a4e",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "47a69a7f-a134-49c3-a891-31ffc39e51ae",
+            "name": "Actualizar Multa",
+            "url": "localhost:4000/involucrar/1",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-10-09T18:24:58.672Z",
+            "modified": "2023-10-09T18:24:58.672Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ciudadPersona",
+                        "value": "Riohacha"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "59ff765c-837c-4af3-a29a-f3974618f7d9",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "a7299829-54e5-45a0-8c7a-3ab038ce6782",
+            "name": "Eliminar Vehiculo",
+            "url": "localhost:4000/vehiculos/1",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-10-09T18:24:58.663Z",
+            "modified": "2023-10-09T18:24:58.663Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "10bfbff4-aa1f-4048-a29a-8e7d1841e5a0",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "80e04456-c5e2-406d-8b00-c1df2157ca31",
+            "name": "Eliminar Multa",
+            "url": "localhost:4000/multas/1",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-10-09T18:24:58.668Z",
+            "modified": "2023-10-09T18:24:58.668Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d7c93629-ae3f-479d-8f62-cced568facd3",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "47a69a7f-a134-49c3-a891-31ffc39e51ae",
+            "name": "Eliminar Multa",
+            "url": "localhost:4000/involucrar/1",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-10-09T18:24:58.673Z",
+            "modified": "2023-10-09T18:24:58.673Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "146ba25d-4ccb-4989-8309-e578af663852",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "a7299829-54e5-45a0-8c7a-3ab038ce6782",
+            "name": "Insertar Vehiculo",
+            "url": "localhost:4000/vehiculos",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-10-09T18:24:58.664Z",
+            "modified": "2023-10-09T18:30:20.838Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "matricula",
+                        "value": "SSP431"
+                    },
+                    {
+                        "name": "marca",
+                        "value": "TESLA"
+                    },
+                    {
+                        "name": "modelo",
+                        "value": "X"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7c0c3210-368d-43ba-ae3b-491292db1364",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "80e04456-c5e2-406d-8b00-c1df2157ca31",
+            "name": "Insertar Multa",
+            "url": "localhost:4000/multas",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-10-09T18:24:58.669Z",
+            "modified": "2023-10-09T18:24:58.669Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "DNI",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "nombrePersona",
+                        "value": "Alex"
+                    },
+                    {
+                        "name": "apellidoPersona",
+                        "value": "Medina"
+                    },
+                    {
+                        "name": "direccionPersona",
+                        "value": "calle 27#7-85"
+                    },
+                    {
+                        "name": "ciudadPersona",
+                        "value": "Riohacha"
+                    },
+                    {
+                        "name": "tipoPersona",
+                        "value": "Activo"
+                    },
+                    {
+                        "name": "telefonoPersona",
+                        "value": "320437482"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c45b8fd1-02d9-4c6a-af0d-37957841610e",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "47a69a7f-a134-49c3-a891-31ffc39e51ae",
+            "name": "Insertar Multa",
+            "url": "localhost:4000/involucrar",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-10-09T18:24:58.674Z",
+            "modified": "2023-10-09T18:24:58.674Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "DNI",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "nombrePersona",
+                        "value": "Alex"
+                    },
+                    {
+                        "name": "apellidoPersona",
+                        "value": "Medina"
+                    },
+                    {
+                        "name": "direccionPersona",
+                        "value": "calle 27#7-85"
+                    },
+                    {
+                        "name": "ciudadPersona",
+                        "value": "Riohacha"
+                    },
+                    {
+                        "name": "tipoPersona",
+                        "value": "Activo"
+                    },
+                    {
+                        "name": "telefonoPersona",
+                        "value": "320437482"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e34397fe-cad7-4b40-88db-ba2f87e8826e",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "be1c1c2f-0bb6-4fe2-865f-4b8d3e38f53e",
+            "name": "Listar possers",
+            "url": "http://localhost:4000/possers",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-10-09T18:41:01.420Z",
+            "modified": "2023-10-09T18:44:03.641Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b67b1797-b666-45d3-883e-71ea96e83bde",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "be1c1c2f-0bb6-4fe2-865f-4b8d3e38f53e",
+            "name": "Buscar possers",
+            "url": "",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2023-10-09T18:41:24.212Z",
+            "modified": "2023-10-09T18:41:24.212Z",
+            "headers": []
+        },
+        {
+            "_id": "84949ee8-8e85-41f4-820c-0c1fdc70c5e0",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "be1c1c2f-0bb6-4fe2-865f-4b8d3e38f53e",
+            "name": "Actualizar posser",
+            "url": "http://localhost:4000/possers/1",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2023-10-09T18:42:04.227Z",
+            "modified": "2023-10-09T18:44:24.244Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "974a23f8-8ac9-4ace-ba6c-877baa0bffde",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "be1c1c2f-0bb6-4fe2-865f-4b8d3e38f53e",
+            "name": "Insertar posser",
+            "url": "http://localhost:4000/possers",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-10-09T18:42:16.244Z",
+            "modified": "2023-10-09T18:46:48.234Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "tarjetaPropiedad",
+                        "value": "ABC204214"
+                    },
+                    {
+                        "name": "ciudadExp",
+                        "value": "Riohacha"
+                    },
+                    {
+                        "name": "VehiculoId",
+                        "value": "1"
+                    },
+                    {
+                        "name": "PersonaId",
+                        "value": "20"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac185147-ee3e-4209-baca-640414a75180",
+            "colId": "200b1d37-fc98-4813-8518-69b32c405a26",
+            "containerId": "be1c1c2f-0bb6-4fe2-865f-4b8d3e38f53e",
+            "name": "Eliminar posser",
+            "url": "http://localhost:4000/possers/1",
+            "method": "DELETE",
+            "sortNum": 170000,
+            "created": "2023-10-09T18:42:49.395Z",
+            "modified": "2023-10-09T18:47:48.200Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
